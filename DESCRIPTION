@@ -1,0 +1,17 @@
+Package: StatComp20040
+Type: Package
+Title: What the Package Does in One 'Title Case' Line
+Version: 1.0
+Date: 2020-12-18
+Author: SC20040
+Maintainer: SC20040 <cele_fighting@163.com>
+Description: Three R function are included in this package,which can be used to draw confidence interval band for kernel density estimation,the k-nearest neighbor density estimation and Ryan-Joiner normality test.
+License: GPL (>= 2)
+Imports: Rcpp (>= 1.0.5),knitr,FNN,graphics,stats,car,scales,RANN,energy,Ball,boot,parallel,microbenchmark
+LinkingTo: Rcpp
+Encoding: UTF-8
+Suggests: rmarkdown
+VignetteBuilder: knitr
+RoxygenNote: 7.1.1
+URL: http://github.com/Caiyunnn/StatComp20040
+BugReports: http://github.com/Caiyunnn/StatComp20040/issues
